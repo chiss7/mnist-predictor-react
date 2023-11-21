@@ -156,6 +156,7 @@ function App() {
         </a>
       </div>
       <h1>Draw a number</h1>
+      <h3>(between 0 and 9)</h3>
       <div className="card">
         <div className="canvas-area">
           <Canvas
@@ -173,9 +174,9 @@ function App() {
           <table>
             <thead>
               <tr>
-                <th>Model Dense</th>
-                <th>Model Conv</th>
-                <th>Model Conv + Aug</th>
+                <th>Dense</th>
+                <th>Conv</th>
+                <th>Conv + Aug</th>
               </tr>
             </thead>
             <tbody>
